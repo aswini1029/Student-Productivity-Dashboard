@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Productivity Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h2>My Productivity Dashboard</h2>
+
+    <input id="goal" placeholder="Today's goal">
+    <button onclick="saveGoal()">Save Goal</button>
+    <p id="savedGoal"></p>
+
+    <h3>Tasks</h3>
+    <input id="taskInput" placeholder="Add task">
+    <button onclick="addTask()">Add</button>
+
+    <ul id="taskList"></ul>
+    <p id="score"></p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
